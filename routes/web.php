@@ -1,15 +1,14 @@
 <?php
 
+use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hello',function(){
-   return "Hello World";
-});
+// Route::get('/hello',function(){
+//    return "Hello World";
+// });
 
-Route::get('/hello/from/jashore',function(){
-   return "Hello World-1";
-});
+Route::get("/hello",[WelcomeController::class,'sayHello']);

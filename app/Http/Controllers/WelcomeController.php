@@ -7,4 +7,7 @@ use Illuminate\Http\Request;
 class WelcomeController extends Controller
 {
     //
+    function sayHello(){
+        return "Hello Jess";
+    }
 }
