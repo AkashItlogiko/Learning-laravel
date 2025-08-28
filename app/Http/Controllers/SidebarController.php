@@ -8,6 +8,8 @@ class SidebarController extends Controller
 {
     //
     function sidebar(){
-        return view('dashboard.sidebar.sidebar');
+        $name='John Doe';
+        $email='johndoe@gmail.com';
+        return view('dashboard.sidebar.sidebar',['name'=>$name,'email'=>$email]);
     }
 }

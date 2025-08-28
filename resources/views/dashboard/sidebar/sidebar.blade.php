@@ -8,5 +8,7 @@
 </head>
 <body>
   <h1>Sidebar</h1>
+  <h1>Nmae={{$name}}</h1>
+  <h2>Email={{$email}}</h2>
 </body>
 </html>
