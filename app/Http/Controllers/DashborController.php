@@ -8,6 +8,6 @@ class DashborController extends Controller
 {
     //
     function dashbord(){
-        return "Dashbord Page";
+        return view('dashboard');
     }
 }
