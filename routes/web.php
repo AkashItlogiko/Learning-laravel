@@ -12,3 +12,4 @@ Route::get('/', function () {
 // });
 
 Route::get("/hello",[WelcomeController::class,'sayHello']);
+Route::get('texbook',[WelcomeController::class,'texbook']);

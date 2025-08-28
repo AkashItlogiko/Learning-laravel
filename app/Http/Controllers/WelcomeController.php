@@ -10,4 +10,7 @@ class WelcomeController extends Controller
     function sayHello(){
         return "Hello Jess";
     }
+    function texBook(){
+        return "Tex McCormick";
+    }
 }
