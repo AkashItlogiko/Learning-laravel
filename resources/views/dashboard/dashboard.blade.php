@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>Welcome to Blade</h1>
+    <h1>Version</h1>
 </body>
 </html>
