@@ -10,6 +10,6 @@ class SidebarController extends Controller
     function sidebar(){
         $name='John Doe';
         $email='johndoe@gmail.com';
-        return view('dashboard.sidebar.sidebar',['name'=>$name,'email'=>$email]);
+        return view('dashboard.sidebar.sidebar',compact('name','email'));
     }
 }
